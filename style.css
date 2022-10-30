@@ -37,16 +37,19 @@ button:hover {
     display: block;
     text-align: right;
 }
+
 .header__img {
     width: 100%;
 }
+
 .header__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.header { text-align: center;
+.header {
+    text-align: center;
 }
 
 }
@@ -102,11 +105,13 @@ button:hover {
 }
 
 /* New Task */
+
 .task__input--add {
      width: 318px;
 }
 
 /* Task list */
+
 .list__item {
     overflow: hidden;
     padding: 20px 0;
@@ -143,12 +148,14 @@ button:hover {
 }
 
 /* Completed */
+
 .completed-task > .task__label {
     text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
+
 .list__item > .task__input {
     display:none
 }
