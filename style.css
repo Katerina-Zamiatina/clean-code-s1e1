@@ -149,7 +149,7 @@ button:hover {
 
 /* Completed */
 
-.completed-task > .task__label {
+#completed-tasks > .list__item > .task__label {
     text-decoration: line-through;
     color: #888;
 }
