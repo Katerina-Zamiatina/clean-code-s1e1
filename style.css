@@ -66,7 +66,7 @@ button:hover {
 .task__input {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task__add--wrapper {
@@ -150,19 +150,19 @@ button:hover {
 /* Completed */
 
 .completed-task > .task__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 
 .list__item > .task__input {
-    display: none
+    display: none;
 }
 
 .edit-mode > .task__input {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .edit-mode > .task__label {
